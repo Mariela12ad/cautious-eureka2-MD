@@ -7,7 +7,7 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { text, usedPrefix, command }) => {
 
-if (!text) return conn.reply(m.chat, `*「 🌸 」ESCRIBA EL NOMBRE DE LO QUE QUIERA BUSCAR*\n*EJEMPLO:*\n> ${usedPrefix + command} yt-search`, m, rcanal)
+if (!text) return conn.reply(m.chat, `*「 🍭 」ESCRIBA EL NOMBRE DE LO QUE QUIERA BUSCAR*\n*EJEMPLO:*\n> ${usedPrefix + command} yt-search`, m, rcanal)
 
 try {
 

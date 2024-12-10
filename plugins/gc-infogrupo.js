@@ -10,7 +10,7 @@ const handler = async (m, {conn, participants, groupMetadata}) => {
 → ${groupMetadata.id}
 🍭 *Nombre:*
 → ${groupMetadata.subject}
-🌸 *Descripción:*
+❀ *Descripción:*
 → ${groupMetadata.desc?.toString() || 'Sin Descripción'}
 💫 *Miembros:*
 → ${participants.length} Participantes
@@ -19,7 +19,7 @@ const handler = async (m, {conn, participants, groupMetadata}) => {
 🍄 *Administradores:*
 ${listAdmin}
 
-🌸 *CONFIGURACIÓN*
+❀ *CONFIGURACIÓN*
 
 ◈ *Welcome:* ${welcome ? '✅' : '❌'}
 ◈ *Detect:* ${detect ? '✅' : '❌'}  

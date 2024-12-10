@@ -12,7 +12,7 @@ let grupos = `*Hola!, te invito a unirte a los grupos oficiales de la Bot para c
 
 ➠ Enlace anulado? entre aquí! 
 
-🌸 Canal :
+❀ Canal :
 *✰* ${channel}
 
 > ${dev}`

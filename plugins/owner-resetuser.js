@@ -14,7 +14,7 @@ const handler = async (m, { conn, text }) => {
         return conn.sendMessage(m.chat, {text: `*⚠🍭 Formato de usuario no reconocido. Responda a un mensaje, etiquete a un usuario o escriba su número de usuario.*`}, {quoted: fkontak});
     }
     } else {
-        return conn.sendMessage(m.chat, {text: `🌸 *Formato de usuario no reconocido. Responda a un mensaje, etiquete a un usuario o escriba su número de usuario.*`}, {quoted: fkontak});
+        return conn.sendMessage(m.chat, {text: `❀ *Formato de usuario no reconocido. Responda a un mensaje, etiquete a un usuario o escriba su número de usuario.*`}, {quoted: fkontak});
     }        
         const groupMetadata = m.isGroup ? await conn.groupMetadata(m.chat) : {};
         const participants = m.isGroup ? groupMetadata.participants : [];

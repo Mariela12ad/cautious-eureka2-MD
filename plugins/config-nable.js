@@ -257,7 +257,7 @@ break
     break
     default:
       if (!/[01]/.test(command)) return conn.reply(m.chat, `
-*🌼 Funciones solo para owner*
+*❀ Funciones solo para owner*
 
 ${usedPrefix + command} antispam
 ${usedPrefix + command} subbots
@@ -265,7 +265,7 @@ ${usedPrefix + command} status
 ${usedPrefix + command} restrict
 ${usedPrefix + command} autoread
 
-*🌼 Funciones de grupos*
+*❀ Funciones de grupos*
 
 ${usedPrefix + command} welcome 
 ${usedPrefix + command} nsfw

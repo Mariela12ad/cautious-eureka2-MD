@@ -343,7 +343,7 @@ global.db.data.users[m.sender].spam = new Date * 1
                     m.reply('chirrido -_-')
                 else
                     m.exp += xp
-                if (!isPrems && plugin.estrellas && global.db.data.users[m.sender].estrellas < plugin.estrellas * 1) {
+                if (!isPrems && plugin.panes && global.db.data.users[m.sender].panes < plugin.panes * 1) {
                     conn.reply(m.chat, `Se agotaron tus *🥖 Panes*`, m, fake)
                     continue
                 }
@@ -373,7 +373,7 @@ global.db.data.users[m.sender].spam = new Date * 1
                 try {
                     await plugin.call(this, m, extra)
                     if (!isPrems)
-                        m.estrellas = m.estrellas || plugin.estrellas || false
+                        m.panes = m.panes || plugin.panes || false
                 } catch (e) {
                     m.error = e
                     console.error(e)
@@ -391,8 +391,8 @@ global.db.data.users[m.sender].spam = new Date * 1
                             console.error(e)
                         }
                     }
-                    if (m.estrellas)
-                        conn.reply(m.chat, `Utilizaste *${+m.estrellas}* 🥖`, m, fake)
+                    if (m.panes)
+                        conn.reply(m.chat, `Utilizaste *${+m.panes}* 🥖`, m, fake)
                 }
                 break
             }

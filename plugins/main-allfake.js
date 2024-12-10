@@ -46,13 +46,13 @@ global.colab3 = 'IAN-MoDe'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
-global.done = '✅'
+global.done = '🌈'
 global.error = '✖️'
 
-//Emojis determinado de Ian
+//Emojis determinado de satou
 global.emoji = '💖'
 global.emoji2 = '🍡'
-global.emoji3 = '✨️'
+global.emoji3 = '🌸'
 global.emoji4 = '🍭'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
@@ -66,7 +66,7 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 var canal = 'https://whatsapp.com/channel/0029Vavnhn0AojZ2SQ9Dur03'  
 var git = 'https://github.com/Legna-chan' 
 var youtube = 'https://www.youtube.com/@Alya_roshidere827' 
-var github = 'https://github.com/ianalejandrook15x/ianxdd' 
+var github = 'https://github.com/Legna-chan' 
 var facebook = 'https://www.facebook.com/share/5LR1Rih6A9Cw3orM/' 
 let tiktok = 'https://www.tiktok.com/@legna_edits54?_t=8rulCNQS4ql&_r=1'
 let correo = 'legnakujou@gmail.com'

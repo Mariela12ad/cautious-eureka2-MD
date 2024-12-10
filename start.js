@@ -148,13 +148,13 @@ console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: 543876639332\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: 526671548329\n')))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: 573218138672.\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: 526671548329.\n")))
 }}
 rl.close()  
 } 
@@ -202,7 +202,7 @@ return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./IanSession/${files}`)
+unlinkSync(`./SatouSession/${files}`)
 })
 } 
 
@@ -227,7 +227,7 @@ console.log(chalk.bold.red(`Algo salio mal durante la eliminación, archivos no 
 }}
 
 function purgeOldFiles() {
-const directories = ['./IanSession/', './IanJadiBot/']
+const directories = ['./SatouSession/', './SatouJadiBot/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {

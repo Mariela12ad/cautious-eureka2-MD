@@ -49,7 +49,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 
 handler.help = ['happy/feliz @tag'];
-handler.tags = ['emox'];
+handler.tags = ['reaccion'];
 handler.command = ['happy', 'feliz'];
 handler.group = true;
 
