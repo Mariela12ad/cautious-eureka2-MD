@@ -35,7 +35,7 @@ conn.reply(m.chat, '`🍭 Veamos que numeros tienen!`\n\n'+ `➠ *SatouBot* : ${
 } else conn.reply(m.chat, `No tienes *${formatNumber(count)} 🥖 Panes* para apostar!`.trim(), m, rcanal)}
 
 handler.help = ['apostar *<cantidad>*']
-handler.tags = ['fun']
+handler.tags = ['rpg']
 handler.command = /^(apostar|casino)$/i
 handler.register = true
 handler.fail = null
