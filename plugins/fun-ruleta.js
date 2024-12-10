@@ -46,7 +46,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
       conn.reply(m.chat, `🔪 ¡Ganaste! Obtuviste ${panes} *🥖 Panes*. Total: ${users.panes} *🥖 Panes*.`, m, rcanal)
     } else {
       users.panes -= panes
-      conn.reply(m.chat, `🔪 Perdiste. Se restaron ${panes} *🥖 Panes*. Total: ${users.panes} *🥖 Panes*.`, m, rcanal)
+      conn.reply(m.chat, `🔪 Perdiste. Se restaron ${estrellas} *🥖 Panes*. Total: ${users.panes} *🥖 Panes*.`, m, rcanal)
     }
 
 
